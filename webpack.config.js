@@ -12,5 +12,7 @@ module.exports = {
       // babeljs
       { test: /\.js$/, exclude: /node_modules/, loader: 'babel?presets[]=es2015&cacheDirectory=true' }
     ]
-  }
+  },
+
+  devtool: 'inline-source-map'
 };
